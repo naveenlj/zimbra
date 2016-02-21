@@ -2,7 +2,7 @@
 
 set -x
 
- yum -y install nc wget nano make nc sudo sysstat libtool-ltdl glibc perl ntp
+ yum -y install nc wget nano make nc sudo sysstat libtool-ltdl glibc perl ntp unzip libaio
 
 chkconfig sendmail off 
 service sendmail stop 
